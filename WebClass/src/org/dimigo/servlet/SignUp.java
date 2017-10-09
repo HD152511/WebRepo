@@ -47,7 +47,7 @@ public class SignUp extends HttpServlet {
 		System.out.printf("id : %s, pwd : %s\n",id,pwd);
 			
 		//id pwd 정합성 체크
-		boolean result = false;
+		boolean result = true;
 		
 		if(result){
 			//세션에 사용자 정브를 생성하서 담기
